@@ -1,0 +1,21 @@
+[project]
+name = "a_package"
+version = "0.0.1"
+description = "A sample Python project"
+requires-python = ">=3.7"
+license = {text = "Apache License 2.0"}
+authors = [
+  {name = "Luke Smith", email = "luke.smith@bluewin.ch" }
+]
+dependencies = [
+  "numpy"
+]
+
+# [tool.setuptools]
+# If there are data files included in your packages that need to be
+# installed, specify them here.
+# package-data = {"sample" = ["*.dat"]}
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
