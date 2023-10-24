@@ -8,7 +8,8 @@ authors = [
   {name = "Luke Smith", email = "luke.smith@bluewin.ch" }
 ]
 dependencies = [
-  "numpy"
+  "numpy",
+  "coloredlogs"
 ]
 scripts = { a_package_hello = "a_package.a_script.say_hello:say_hello" }
 
