@@ -1,6 +1,6 @@
 import unittest
 
-from sample.simple import add_one
+from a_package.sample.simple import add_one
 
 
 class TestSimple(unittest.TestCase):

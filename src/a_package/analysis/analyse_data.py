@@ -1,5 +1,5 @@
 import numpy as np
-from preprocessing.get_data import get_data
+from a_package.preprocessing.get_data import get_data
 
 
 def calculate_mean():

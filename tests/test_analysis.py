@@ -1,6 +1,6 @@
 import unittest
 
-from analysis.analyse_data import calculate_mean
+from a_package.analysis.analyse_data import calculate_mean
 
 
 class TestSimple(unittest.TestCase):
