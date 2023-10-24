@@ -10,6 +10,8 @@ authors = [
 dependencies = [
   "numpy"
 ]
+scripts = { a_package_hello = "a_package.a_script.say_hello:say_hello" }
+
 
 [project.optional-dependencies]
 test = ["pytest"]
